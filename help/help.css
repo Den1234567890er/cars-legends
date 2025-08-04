@@ -15,7 +15,7 @@ a{
     background-color: rgb(194, 194, 194);
     text-decoration: none;
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     font-size: 40px;
     
@@ -35,21 +35,4 @@ img{
 h1{
     font-size: 80px;
     text-align: center;
-}
-input{
-    background-color:rgb(37, 50, 83) ;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    display: block;
-    margin: 30px;
-}
-button{
-    font-size: 40px;
-    border-radius: 10px;
-    background-color: rgb(37, 37, 65);
-    color: rgb(134, 140, 218);
-}
-.button{
-    text-align: center;
-    margin: 120px;
 }
