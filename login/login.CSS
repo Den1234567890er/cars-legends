@@ -29,6 +29,7 @@ background-image: linear-gradient(rgb(206, 221, 233),rgb(123, 134, 197));
 img{
     width: 150px;
     height: 80px;
+    transition: 5s;
 }
 h1{
     font-size: 80px;
@@ -64,7 +65,7 @@ button:hover{
    transform: rotate(360deg);
 }
 img:hover{
-    transform: translateX(10px);
+    transform: translateX(300px);
 }
 a:hover{
     color: rgb(132, 136, 168);
