@@ -33,3 +33,11 @@ h1{
     font-size: 80px;
     text-align: center;
 }
+.back{
+    text-decoration: none;
+    border: 10px double rgb(216, 95, 95);
+    border-radius: 15px;
+}
+.b{
+        text-align: right;
+}
