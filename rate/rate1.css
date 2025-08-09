@@ -8,22 +8,22 @@ a{
     background-color: rgb(194, 194, 194);
     text-decoration: none;
     border-radius: 10px;
-    margin: 15px;
+    margin: 70px;
     padding: 10px;
-    font-size: 40px;
+    font-size: 70px;
     
-    
-    
-}
-.a{
-    text-align: right;
 }
 .img{
     width: 120px;
     height: 120px;
-    text-align: center;
+
 }
 h1{
     font-size: 80px;
     text-align: center;
+}
+.rate{
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
 }

@@ -31,7 +31,7 @@ nav{
 .img{
     width: 150px;
     height: 80px;
-    transition: 5s;
+    transition: 34s;
 }
 h1{
     font-size: 80px;
@@ -49,7 +49,7 @@ p{
     transition: 10s;
 }
 .img:hover{
-    transform: translateX(300px);
+    transform: translateX(5000px);
 }
 .my:hover{
     color: rgb(132, 136, 168);
