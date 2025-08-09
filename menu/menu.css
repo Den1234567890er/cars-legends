@@ -22,7 +22,11 @@ nav{
     text-align: right;
 }
 .navigation{
-background-image: linear-gradient(rgb(206, 221, 233),rgb(123, 134, 197));
+    background-image: linear-gradient(rgb(206, 221, 233),rgb(123, 134, 197));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
 }
 .img{
     width: 150px;
@@ -42,6 +46,7 @@ h1{
 }
 p{
     font-size: 40px;
+    transition: 10s;
 }
 .img:hover{
     transform: translateX(300px);
@@ -49,4 +54,7 @@ p{
 .my:hover{
     color: rgb(132, 136, 168);
     background-color: rgb(0, 0, 0);
+}
+p:hover{
+    color: rgb(255, 255, 255);
 }

@@ -4,10 +4,6 @@ body{
      font-family: "Caveat", cursive;
      margin: 0;
 }
-nav{
-    border-radius: 14px;
-    height: 80px;
-}
 a{
     background-color: rgb(194, 194, 194);
     text-decoration: none;
@@ -22,20 +18,12 @@ a{
 .a{
     text-align: right;
 }
-
-img{
-    width: 150px;
-    height: 80px;
+.img{
+    width: 120px;
+    height: 120px;
+    text-align: center;
 }
 h1{
     font-size: 80px;
     text-align: center;
-}
-.back{
-    text-decoration: none;
-    border: 10px double rgb(216, 95, 95);
-    border-radius: 15px;
-}
-.b{
-        text-align: right;
 }

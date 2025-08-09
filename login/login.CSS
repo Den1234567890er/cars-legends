@@ -25,6 +25,10 @@ a{
 }
 .navigation{
 background-image: linear-gradient(rgb(206, 221, 233),rgb(123, 134, 197));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
 }
 img{
     width: 150px;
