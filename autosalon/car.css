@@ -1,86 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-body{
-    background-image: linear-gradient(white,rgb(68, 65, 65));
-     font-family: "Caveat", cursive;
-     margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+body {
+  background-image: linear-gradient(white, rgb(68, 65, 65));
+  font-family: "Caveat", cursive;
+  margin: 0;
 }
-nav{
-    border-radius: 14px;
-    height: 80px;
+nav {
+  border-radius: 14px;
+  height: 80px;
 }
-a{
-    background-color: rgb(194, 194, 194);
-    text-decoration: none;
-    border-radius: 10px;
-    margin: 15px;
-    padding: 10px;
-    font-size: 40px;
-    
-    
-    
+a {
+  background-color: rgb(194, 194, 194);
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  font-size: 40px;
 }
-.a{
-    text-align: right;
+.a {
+  text-align: right;
 }
-.navigation{
-background-image: linear-gradient(rgb(206, 221, 233),rgb(123, 134, 197));
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+.navigation {
+  background-image: linear-gradient(
+    rgb(206, 221, 233),
+    rgb(123, 134, 197)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
 }
-img{
-    width: 150px;
-    height: 80px;
+img {
+  width: 150px;
+  height: 80px;
 }
-h1{
-    font-size: 80px;
-    text-align: center;
+h1 {
+  font-size: 80px;
+  text-align: center;
 }
-h2{
-    color: rgb(10, 17, 83);
-    text-align: center;
-    font-size: 35px;
+h2 {
+  color: rgb(10, 17, 83);
+  text-align: center;
+  font-size: 35px;
 }
-.bmw,.porsch{
-    text-align: center;
-    background-color: cadetblue;
-    border-radius: 10px;
-    margin: 40px;
+.bmw,
+.porsch {
+  text-align: center;
+  background-color: cadetblue;
+  border-radius: 10px;
 }
-.cars{
-   display: flex;
-   background-color: rgb(134, 120, 89);
-   width: 1300px;
-   border: 10px double rgb(0, 0, 0);
-   margin: 20px;
-   border-radius: 15px;
+.cars {
+  display: flex;
+  background-color: rgb(134, 120, 89);
+  width: 1300px;
+  border: 10px double rgb(0, 0, 0);
+  margin: 20px;
+  border-radius: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 96%;
 }
-.bmw img ,.porsch img{
-    margin: 15px;
-    width: 250px;
-    height: 170px;
-    border-radius: 5px;
+
+.cars div {
+  margin: 20px;
 }
-.bmw:hover{
-    transform: scale(1.1);
+
+.bmw img,
+.porsch img {
+  margin: 15px;
+  width: 250px;
+  height: 170px;
+  border-radius: 5px;
 }
-.mercedes img{
-    margin: 15px;
-    width: 250px;
-    height: 170px;
-    border-radius: 5px;
+.bmw:hover {
+  transform: scale(1.1);
 }
-.mercedes{
-    background-color: cadetblue;
-    border-radius: 10px;
-    margin: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
+.mercedes img {
+  margin: 15px;
+  width: 250px;
+  height: 170px;
+  border-radius: 5px;
 }
-.mercedes:hover{
-    transform: scale(1.1);
+.mercedes {
+  background-color: cadetblue;
+  border-radius: 10px;
 }
-.porsch:hover{
-    transform: scale(1.1);
+.mercedes:hover {
+  transform: scale(1.1);
+}
+.porsch:hover {
+  transform: scale(1.1);
 }
