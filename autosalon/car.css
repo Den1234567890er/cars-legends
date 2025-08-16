@@ -90,3 +90,6 @@ h2 {
 .porsch:hover {
   transform: scale(1.1);
 }
+.more{
+  text-align: center;
+}
