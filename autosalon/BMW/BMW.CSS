@@ -37,6 +37,7 @@ h1{
     font-size: 80px;
     text-align: center;
     color: rgb(21, 45, 77);
+    transition: 5s;
 }
 .bmw img {
   margin: 15px;
@@ -58,7 +59,7 @@ h2 {
   text-align: center;
   font-size: 35px;
 }
-.cars {
+.cars .cars1{
   display: flex;
   background-color: rgb(143, 153, 168);
   width: 1300px;
