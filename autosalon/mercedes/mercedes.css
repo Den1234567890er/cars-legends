@@ -36,4 +36,45 @@ img{
 h1{
     font-size: 80px;
     text-align: center;
+    color: rgb(21, 45, 77);
+    transition: 5s;
+}
+.bmw img {
+  margin: 15px;
+  width: 250px;
+  height: 170px;
+  border-radius: 5px;
+}
+.bmw:hover {
+  transform: scale(1.1);
+}
+.bmw {
+  text-align: center;
+  background-color: rgb(85, 90, 90);
+  border-radius: 10px;
+  margin: 20px;
+}
+h2 {
+  color: rgb(136, 143, 202);
+  text-align: center;
+  font-size: 35px;
+}
+h1:hover{
+    transform: scale(1.1);
+    color: rgb(44, 11, 75);
+}
+.cars1,.cars2,.cars,.cars3{
+  display: flex;
+  background-color: rgb(143, 153, 168);
+  width: 1300px;
+  border: 10px double rgb(26, 5, 117);
+  margin: 20px;
+  border-radius: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 96%;
+}
+h3{
+  font-size: 50px;
+  color: rgb(32, 18, 18);
 }
