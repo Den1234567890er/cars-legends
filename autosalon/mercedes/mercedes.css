@@ -8,7 +8,7 @@ nav{
     border-radius: 14px;
     height: 80px;
 }
-a{
+.aa{
     background-color: rgb(194, 194, 194);
     text-decoration: none;
     border-radius: 10px;
@@ -77,4 +77,9 @@ h1:hover{
 h3{
   font-size: 50px;
   color: rgb(32, 18, 18);
+}
+.cart{
+    width: 90px;
+    height: 70px;
+    padding: 10px;
 }
