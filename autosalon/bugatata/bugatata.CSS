@@ -59,7 +59,7 @@ h2 {
   text-align: center;
   font-size: 35px;
 }
-.cars{
+.cars, .root, .cars1{
   display: flex;
   background-color: rgb(143, 153, 168);
   width: 1300px;
@@ -73,17 +73,6 @@ h2 {
 h1:hover{
     transform: scale(1.1);
     color: rgb(44, 11, 75);
-}
-.cars1{
-  display: flex;
-  background-color: rgb(143, 153, 168);
-  width: 1300px;
-  border: 10px double rgb(26, 5, 117);
-  margin: 20px;
-  border-radius: 15px;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 96%;
 }
 h3{
   font-size: 50px;
