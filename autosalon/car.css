@@ -8,7 +8,7 @@ nav {
   border-radius: 14px;
   height: 80px;
 }
-a {
+.aa{
   background-color: rgb(194, 194, 194);
   text-decoration: none;
   border-radius: 10px;
@@ -89,4 +89,7 @@ h2 {
 }
 .porsch:hover {
   transform: scale(1.1);
+}
+.f{
+  text-decoration: none;
 }
